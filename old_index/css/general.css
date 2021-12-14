@@ -1,0 +1,53 @@
+@charset "utf-8";
+.img-responsive.home.center-block {
+	margin-top: 80px;
+	max-width: 90%;
+}
+.img-responsive.homeDireccion.center-block {
+	margin-top: 30px;
+	max-width: 563px;
+}
+.email.center-block {
+	width: 100%;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 50px;
+	font-family: Impact, Haettenschweiler, Franklin Gothic Bold, Arial Black," sans-serif";
+	color: #c42b1c;
+	font-size: 24px;
+	
+	
+}
+.email.center-block .textoLink  {
+	color: #000000;
+}
+
+
+@media screen and (max-width:767px)
+{
+	.img-responsive.home.center-block
+	{
+		display: none;
+	}
+	.img-responsive.homeDireccion.center-block
+	{
+		display: none;
+	}
+	
+	.img-responsive.Mobile.home.center-block
+	{
+		display: block;
+	}
+}
+
+@media screen and (min-width:768px)
+{
+	.img-responsive.home.center-block
+	{
+		display: block;
+	}
+	.img-responsive.Mobile.home.center-block
+	{
+		display: none;
+	}
+}
